@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Home from './componentes/Home';
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       <header>
         <h1 className="name">React Weather</h1>
       </header>
-      {/* Your Code Goes Here! */}
+      <main>
+        <Home />
+      </main>
     </>
   );
 }
